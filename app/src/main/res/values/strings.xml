@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PaymentAppIntro</string>
+    <string name="notification_alerts">Notification Alerts</string>
+    <string name="easy_payments">Easy Payments</string>
+    <string name="money_records">Money Records</string>
+    <string name="lorem_ipsum">Lorm ipsum is simply dummy text of the printing and type setting industry.</string>
+    <string name="get_started">Get Started</string>
+</resources>

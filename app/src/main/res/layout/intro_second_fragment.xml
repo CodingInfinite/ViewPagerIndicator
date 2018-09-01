@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.IntroSecondFragment">
+
+    <ImageView
+        android:id="@+id/easyPaymentImageView"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:src="@drawable/easy_payment_icon" />
+
+    <TextView
+        android:id="@+id/easyPaymentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/easyPaymentImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/easy_payments"
+        android:textColor="@color/colorTitleText"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/easyPaymentSubTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/easyPaymentTextView"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/lorem_ipsum"
+        android:textColor="@color/colorSubText"
+        android:textSize="15sp" />
+
+</RelativeLayout>
